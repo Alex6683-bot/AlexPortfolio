@@ -1,0 +1,41 @@
+{
+    "lastFetched": "",
+    "repositories": [
+        {
+            "name": "Matrix3D",
+            "description": "A simple 3D Viewer engine built with C#",
+            "technologies": ["C#", "OpenGL"],
+            "url": "https://github.com/Alex6683-bot/Matrix3D"
+        },
+        {
+            "name": "MazeGenerator",
+            "description": "Simple Maze Generator made with OpenGL",
+            "technologies": ["C#", "OpenGL"],
+            "url": "https://github.com/Alex6683-bot/MazeGenerator"
+        },
+        {
+            "name": "GLRenderer",
+            "description": "A set of abstraction classes for rendering meshes and scenes in OpenTK",
+            "technologies": ["C#", "OpenTK"],
+            "url": "https://github.com/Alex6683-bot/GLRenderer"
+        },
+        {
+            "name": "Sprite-Deets-App",
+            "description": "A tool to assist editing sprite metadata for importing into any game engine",
+            "technologies": ["TypeScript", "HTML"],
+            "url": "https://github.com/Alex6683-bot/Sprite-Deets-App"
+        },
+        {
+            "name": "WPF-ToDo-Application",
+            "description": "Simple WPF ToDo app built with MVVM architecture",
+            "technologies": ["C#", "WPF"],
+            "url": "https://github.com/Alex6683-bot/WPF-ToDo-Application"
+        },
+        {
+            "name": "Simple-Console-Arithmetic-Interpreter",
+            "description": "A console-based arithmetic expression interpreter",
+            "technologies": ["C#"],
+            "url": "https://github.com/Alex6683-bot/Simple-Console-Arithmetic-Interpreter"
+        }
+    ]
+} 

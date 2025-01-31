@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex - Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="profile.png" alt="Alex's Profile" />
+            <span>Alex</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="https://github.com/Alex6683-bot" target="_blank">GitHub</a>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="projects-left">
+            <div class="project-card">
+                <h3>Matrix3D</h3>
+                <p>A simple 3D Viewer engine built with C#</p>
+                <div class="project-tech">
+                    <span>C#</span>
+                    <span>OpenGL</span>
+                </div>
+                <a href="https://github.com/Alex6683-bot/Matrix3D" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>MazeGenerator</h3>
+                <p>Simple Maze Generator made with OpenGL</p>
+                <div class="project-tech">
+                    <span>C#</span>
+                    <span>OpenGL</span>
+                </div>
+                <a href="https://github.com/Alex6683-bot/MazeGenerator" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Simple-Console-Arithmetic-Interpreter</h3>
+                <p>A console-based arithmetic expression interpreter</p>
+                <div class="project-tech">
+                    <span>C#</span>
+                </div>
+                <a href="https://github.com/Alex6683-bot/Simple-Console-Arithmetic-Interpreter" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+        </div>
+
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <img src="profile.png" alt="Alex's Profile" class="hero-image" />
+                <h1>Hello, I'm Alex</h1>
+                <p class="tagline">Developer & Problem Solver</p>
+                <p class="description">I create software solutions with C# and Python</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/Alex6683-bot" class="btn primary" target="_blank">
+                        <i class="fab fa-github"></i> GitHub Profile
+                    </a>
+                    <a href="#about" class="btn secondary">About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="projects-right">
+            <div class="project-card">
+                <h3>GLRenderer</h3>
+                <p>A set of abstraction classes for rendering meshes and scenes in OpenTK</p>
+                <div class="project-tech">
+                    <span>C#</span>
+                    <span>OpenTK</span>
+                </div>
+                <a href="https://github.com/Alex6683-bot/GLRenderer" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Sprite-Deets-App</h3>
+                <p>A tool to assist editing sprite metadata for importing into any game engine</p>
+                <div class="project-tech">
+                    <span>TypeScript</span>
+                    <span>HTML</span>
+                </div>
+                <a href="https://github.com/Alex6683-bot/Sprite-Deets-App" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>WPF-ToDo-Application</h3>
+                <p>Simple WPF ToDo app built with MVVM architecture</p>
+                <div class="project-tech">
+                    <span>C#</span>
+                    <span>WPF</span>
+                </div>
+                <a href="https://github.com/Alex6683-bot/WPF-ToDo-Application" class="project-link" target="_blank">
+                    <i class="fab fa-github"></i> View Project
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- About Modal -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="profile.png" alt="Alex's Profile" class="about-image" />
+                <div class="about-info">
+                    <div class="pronouns">
+                        <span>He/Him/Id10t/Dev</span>
+                    </div>
+                    <p class="about-statement">"My name is Alex, and I like makin stuffs."</p>
+                    
+                    <div class="expertise">
+                        <h3>Expertise</h3>
+                        <div class="expertise-items">
+                            <div class="expertise-item">
+                                <i class="fas fa-code"></i>
+                                <span>C#</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="preferences">
+                        <h3>Preferred OS</h3>
+                        <div class="preference-item">
+                            <i class="fab fa-windows"></i>
+                            <span>Windows</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Modal -->
+    <div id="projectsModal" class="modal">
+        <div class="modal-content projects-modal">
+            <div class="modal-header">
+                <div class="modal-title">
+                    <h2>All Projects</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="C#">C#</button>
+                        <button class="filter-btn" data-filter="Python">Python</button>
+                        <button class="filter-btn" data-filter="TypeScript">TypeScript</button>
+                    </div>
+                </div>
+                <button class="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body projects-grid">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
